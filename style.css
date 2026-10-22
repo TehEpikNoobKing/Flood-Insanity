@@ -5,13 +5,13 @@
 body {
     margin: 0;
     display: flex;
-    min-height: 100vh;
+    height: 100vh;
     background: #1e001f;
 }
 
 .sidebar {
     width: 15%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 
@@ -22,7 +22,7 @@ body {
 
 .content {
     width: 85%;
-    min-height: 100vh;
+    height: 100vh;
     padding: 20px;
 
     color: #fff;
