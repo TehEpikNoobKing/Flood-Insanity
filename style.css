@@ -3,6 +3,10 @@
 	position: sticky;
 	display: flex;
 	flex-direction: column;
+
+	color: #fff;
+	background: #370038;
+	box-shadow: 1px 4px;
 }
 
 .content {
