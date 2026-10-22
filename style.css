@@ -1,18 +1,30 @@
-.sidebar {
-	width: 15%;
-	position: sticky;
-	display: flex;
-	flex-direction: column;
+* {
+    box-sizing: border-box;
+}
 
-	color: #fff;
-	background: #370038;
-	box-shadow: 1px 4px;
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    background: #1e001f;
+}
+
+.sidebar {
+    width: 15%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    color: #fff;
+    background: #370038;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.4);
 }
 
 .content {
-	width: 85%;
-	position: absolute;
-	right: 0%;
+    width: 85%;
+    min-height: 100vh;
+    padding: 20px;
 
-	background: #1e001f;
+    color: #fff;
+    background: #1e001f;
 }
