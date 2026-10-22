@@ -18,12 +18,20 @@ body {
 }
 
 .sidebar {
-    flex: 0 0 70px;
+    flex: 0 0 120px;
     height: 100%;
     padding: 16px;
     background: #370038;
     box-shadow: 2px 0 6px rgba(0, 0, 0, 0.3);
     overflow-wrap: anywhere;
+}
+
+.sidebar .collapsed {
+    flex: 0 0 40px;
+}
+
+.sidebar .collapsed span {
+    display: none;
 }
 
 .logo {
