@@ -1,0 +1,12 @@
+.sidebar {
+	width: 15%;
+	position: sticky;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	width: 85%;
+	position: absolute;
+	right: 0%;
+}
